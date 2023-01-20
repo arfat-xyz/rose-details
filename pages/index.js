@@ -9,6 +9,9 @@ const inter = Inter({ subsets: ["latin"] });
 export default function Home() {
   return (
     <>
+      <Head>
+        <title>Flower blog</title>
+      </Head>
       <div className="container mx-auto dark:text-white mt-8 grid md:grid-cols-3 gap-4 justify-center">
         <Card
           image={"/rose-card.jpg"}

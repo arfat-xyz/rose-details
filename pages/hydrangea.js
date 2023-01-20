@@ -1,10 +1,14 @@
+import Head from "next/head";
 import Image from "next/image";
 import React from "react";
 
 const hydrangea = () => {
   return (
     <>
-      <div className="container mx-auto dark:text-white text-xl">
+      <Head>
+        <title>Hydrangea details</title>
+      </Head>
+      <div className="p-3 container mx-auto dark:text-white text-xl">
         <p>
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum
           nostrum illum iure, illo dolores tempore eius fugit reiciendis dicta
