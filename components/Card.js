@@ -5,7 +5,7 @@ import React from "react";
 const Card = ({ image, heading, desc, btnLink }) => {
   return (
     <>
-      <div className="p-3 m-3 hover:scale-105 transition duration-500 max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
+      <div className="p-3 mt-5 hover:mt-0 ease-linear duration-500 max-w-sm bg-white border border-gray-200 rounded-lg shadow-md dark:bg-gray-800 dark:border-gray-700">
         <Link href={btnLink}>
           <Image
             className="rounded-t-lg w-full h-full"
